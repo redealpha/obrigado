@@ -1,0 +1,104 @@
+/*
+	Autor: Douglas de Sousa Lisboa;
+	Email: lisboadouglas.rp@gmail.com;
+	Estilo para a LP do Kia Rio;
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+body, html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	background: #eae6e6;
+}
+
+.jumbotron{
+	background: #b01116;
+	color: #fff;
+}
+footer  {
+	background: #2f2f2f;
+	color: #999;
+}
+.footer-mid{
+	position: relative;
+	background-color: #fff;
+	color: #a1a1a1;
+}
+.logo-kia{
+	float: right;
+    margin-right: 50px;
+    line-height: 32px;
+    padding: 10px 0;
+}
+
+.logo-kia img{
+	margin-top: -58px;
+}
+.footer-bottom{
+	background-color: #fff;
+	color: #a1a1a1;
+	padding: 20px;
+	height: 100px;
+}
+.footer-bottom .row .col-4{
+	padding-left: 90px;
+	border-right: 2px solid #dcdcdc;
+	float: left;
+}
+.footer-bottom .col p{
+	margin-bottom: 5px;
+}
+.footer-bottom .col p a,.footer-bottom .col-12 p a{
+	color: #a1a1a1;
+	text-decoration: none;
+	cursor: pointer;
+}
+.footer-bottom .col p a:hover,.footer-bottom .col-12 p a:hover{
+	text-decoration: underline;
+	transition: 1s;
+}
+.fa-phone-alt,.fa-whatsapp{
+	color: #e2001a;
+}
+#obrigado{
+	width: 100%;
+	height: 85vh;
+	background: #000;
+	color: #FFF
+}
+.obrigado{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.obrigado p {
+    font-size: 1.3em;
+    color: #424141;
+}
+.fone a,.whats a{
+	color: #777;
+	font-size: 1.8em;
+}
+a{
+	color: #777;
+}
+a:hover{
+	color: #777;
+}
+@media(max-width: 450px){
+	.logo-kia{
+		margin-right: 132px;
+	}
+	.footer-top .rodape{
+		margin-left: 20px;
+		margin-bottom: 20px;
+		margin-right: 20px;
+	}
+	.footer-bottom{
+		height: 205px
+	}
+}
+
